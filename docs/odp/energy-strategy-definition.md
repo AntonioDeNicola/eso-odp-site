@@ -1,0 +1,99 @@
+# Energy Strategy Definition ODP
+
+## Description
+The Energy Strategy Definition Ontology Design Pattern describes how energy strategies are formulated and linked to policy mixes, stakeholders, and implementation activities.
+
+This pattern provides a structured semantic representation that can be reused across the ESO catalog and linked to other patterns when modeling more complex energy-system dynamics.
+
+---
+
+## Conceptual Diagram
+![Energy Strategy Definition ODP Diagram](../assets/images/energy-strategy-definition.png)
+
+---
+
+## Formal OWL Excerpt
+
+```turtle
+@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+eso:energy_strategy a owl:Class ;
+    rdfs:label "energy_strategy" ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:aimsAt ; owl:someValuesFrom eso:energy_strategy_goal ] ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:involves ; owl:someValuesFrom eso:action_plan ] .
+
+eso:policy_mix a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:implements ; owl:someValuesFrom eso:energy_strategy ] .
+
+eso:politician a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:defines ; owl:someValuesFrom eso:energy_strategy ] .
+
+eso:stakeholder a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:influences ; owl:someValuesFrom eso:politician ] .
+
+eso:energy_resources_assessment a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isPartOf ; owl:someValuesFrom eso:action_plan ] .
+
+eso:demand_analysis a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isPartOf ; owl:someValuesFrom eso:action_plan ] .
+
+eso:investment_and_funding a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isPartOf ; owl:someValuesFrom eso:action_plan ] .
+
+eso:monitoring a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isPartOf ; owl:someValuesFrom eso:action_plan ] .
+
+eso:evaluation a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isPartOf ; owl:someValuesFrom eso:action_plan ] .
+```
+
+---
+
+## Related Classes and Properties
+
+```turtle
+@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+eso:energy_strategy a owl:Class .
+eso:energy_strategy_goal a owl:Class .
+eso:action_plan a owl:Class .
+eso:policy_mix a owl:Class .
+eso:politician a owl:Class .
+eso:stakeholder a owl:Class .
+eso:energy_resources_assessment a owl:Class .
+eso:demand_analysis a owl:Class .
+eso:investment_and_funding a owl:Class .
+eso:monitoring a owl:Class .
+eso:evaluation a owl:Class .
+
+eso:aimsAt a owl:ObjectProperty .
+eso:involves a owl:ObjectProperty .
+eso:implements a owl:ObjectProperty .
+eso:defines a owl:ObjectProperty .
+eso:influences a owl:ObjectProperty .
+eso:isPartOf a owl:ObjectProperty .
+```
+
+---
+
+## Key Concepts
+
+- **energy_strategy**: It represents a strategic orientation in the energy domain.
+- **energy_strategy_goal**: It represents the objective pursued by a strategy.
+- **action_plan**: It represents the set of activities through which a strategy is implemented.
+- **policy_mix**: It represents the policy configuration implementing the strategy.
+
+---
+
+## Interpretation
+The pattern supports the representation of strategies as structured plans connected to goals, policy implementation, and planning activities such as monitoring, evaluation, and resource assessment.
+
+---
+
+## Download
+- [TTL file](../assets/rdf/energy-strategy-definition.ttl)

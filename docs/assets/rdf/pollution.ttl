@@ -1,0 +1,38 @@
+@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+# Ontology Design Pattern: Energy Pollution ODP
+#################################################################
+
+eso:pollution a owl:Class ;
+    rdfs:label "pollution" ;
+    rdfs:subClassOf eso:ecological_load ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:concerns ; owl:someValuesFrom eso:ecosystem_aspect ] ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasAdverseEffect ; owl:someValuesFrom eso:ecological_impact ] .
+
+eso:ecosystem a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isPartOf ; owl:someValuesFrom eso:ecosystem ] ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasSystemAspect ; owl:someValuesFrom eso:ecosystem_aspect ] .
+
+eso:ecosystem_aspect a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasVulnerability ; owl:someValuesFrom eso:vulnerability ] ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:affects ; owl:someValuesFrom eso:ecological_impact ] .
+
+#################################################################
+# Related Classes and Properties
+#################################################################
+
+eso:pollution a owl:Class .
+eso:ecological_load a owl:Class .
+eso:ecosystem_aspect a owl:Class .
+eso:ecological_impact a owl:Class .
+eso:ecosystem a owl:Class .
+eso:vulnerability a owl:Class .
+
+eso:concerns a owl:ObjectProperty .
+eso:hasAdverseEffect a owl:ObjectProperty .
+eso:hasSystemAspect a owl:ObjectProperty .
+eso:hasVulnerability a owl:ObjectProperty .
+eso:affects a owl:ObjectProperty .

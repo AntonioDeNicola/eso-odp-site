@@ -1,0 +1,26 @@
+site_name: ESO Ontology Design Patterns
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - ODP Catalog:
+      - Energy Demand: odp/energy-demand.md
+      - Energy Form: odp/energy-form.md
+      - Energy Infrastructure Development: odp/energy-infrastructure-development.md
+      - Energy International Cooperation: odp/energy-international-cooperation.md
+      - Energy Market: odp/energy-market.md
+      - Mitigation: odp/mitigation.md
+      - Energy Policy: odp/energy-policy.md
+      - Energy Research: odp/energy-research.md
+      - Energy Saving: odp/energy-saving.md
+      - Energy Security: odp/energy-security.md
+      - Energy Sources Exploitation: odp/energy-sources-exploitation.md
+      - Energy Strategy Definition: odp/energy-strategy-definition.md
+      - Energy Value Chain: odp/energy-value-chain.md
+      - Energy Waste: odp/energy-waste.md
+      - Policy Acceptance: odp/policy-acceptance.md
+      - Pollution: odp/pollution.md
+      - Risk: odp/risk.md
+      - System Aspect: odp/system-aspect.md

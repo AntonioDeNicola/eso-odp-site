@@ -1,0 +1,33 @@
+@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+# Ontology Design Pattern: Energy Form ODP
+#################################################################
+
+eso:energy_form a owl:Class ;
+    rdfs:label "energy_form" .
+
+eso:energy_conversion a owl:Class ;
+    rdfs:label "energy_conversion" ;
+    rdfs:subClassOf eso:system_internal_operation ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasSource ; owl:someValuesFrom eso:energy_form ] ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasDestination ; owl:someValuesFrom eso:energy_form ] .
+
+eso:energy a owl:Class ;
+    rdfs:label "energy" ;
+    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasForm ; owl:someValuesFrom eso:energy_form ] .
+
+#################################################################
+# Related Classes and Properties
+#################################################################
+
+eso:energy a owl:Class .
+eso:energy_form a owl:Class .
+eso:energy_conversion a owl:Class .
+eso:system_internal_operation a owl:Class .
+
+eso:hasForm a owl:ObjectProperty .
+eso:hasSource a owl:ObjectProperty .
+eso:hasDestination a owl:ObjectProperty .
