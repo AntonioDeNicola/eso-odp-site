@@ -29,4 +29,8 @@ This pattern provides a structured semantic representation that can be reused ac
 
 The pattern formalizes energy demand as a concept shaped by both contextual conditions and stakeholder perspectives. It supports integrated analysis across environmental, policy, behavioural, technological, and economic dimensions.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
 
