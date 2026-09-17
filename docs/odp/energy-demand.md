@@ -13,53 +13,6 @@ This pattern provides a structured semantic representation that can be reused ac
 
 ---
 
-## Formal OWL Excerpt
-
-```turtle
-@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-eso:energy_demand a owl:Class ;
-    rdfs:label "energy_demand" ;
-    rdfs:subClassOf eso:service_request ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:dependsOn ; owl:someValuesFrom eso:behavior ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:dependsOn ; owl:someValuesFrom eso:economic_condition ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:dependsOn ; owl:someValuesFrom eso:energy_efficiency_policy ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:dependsOn ; owl:someValuesFrom eso:population ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:dependsOn ; owl:someValuesFrom eso:technology ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:dependsOn ; owl:someValuesFrom eso:weather ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isInterestedIn ; owl:someValuesFrom eso:energy_provider ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isInterestedIn ; owl:someValuesFrom eso:policy-maker ] ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:isInterestedIn ; owl:someValuesFrom eso:researcher ] .
-```
-
----
-
-## Related Classes and Properties
-
-```turtle
-@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-eso:energy_demand a owl:Class .
-eso:behavior a owl:Class .
-eso:economic_condition a owl:Class .
-eso:energy_efficiency_policy a owl:Class .
-eso:population a owl:Class .
-eso:technology a owl:Class .
-eso:weather a owl:Class .
-eso:energy_provider a owl:Class .
-eso:policy-maker a owl:Class .
-eso:researcher a owl:Class .
-
-eso:dependsOn a owl:ObjectProperty .
-eso:isInterestedIn a owl:ObjectProperty .
-```
-
----
-
 ## Key Concepts
 
 - **energy_demand**: It represents the service request for energy that emerges from multiple interacting drivers.
@@ -76,7 +29,4 @@ eso:isInterestedIn a owl:ObjectProperty .
 
 The pattern formalizes energy demand as a concept shaped by both contextual conditions and stakeholder perspectives. It supports integrated analysis across environmental, policy, behavioural, technological, and economic dimensions.
 
----
 
-## Download
-- [TTL file](../assets/rdf/energy-demand.ttl)
