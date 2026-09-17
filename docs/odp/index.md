@@ -1,8 +1,23 @@
 # ESO Ontology Design Patterns
 
 - [Energy Demand ODP](energy-demand.md)
+- [Energy Form ODP](energy-form.md)
+- [Energy Infrastructure Development ODP](energy-infrastructure-development.md)
+- [Energy International Cooperation ODP](energy-international-cooperation.md)
 - [Energy Market ODP](energy-market.md)
 - [Energy Policy ODP](energy-policy.md)
+- [Energy Research ODP](energy-research.md)
+- [Energy Saving ODP](energy-saving.md)
+- [Energy Security ODP](energy-security.md)
+- [Energy Sources Exploitation ODP](energy-sources-exploitation.md)
+- [Energy Strategy Definition ODP](energy-strategy-definition.md)
+- [Energy Value Chain ODP](energy-value-chain.md)
+- [Energy Waste ODP](energy-waste.md)
+- [Mitigation ODP](mitigation.md)
+- [Policy Acceptance ODP](policy-acceptance.md)
+- [Pollution ODP](pollution.md)
+- [Risk ODP](risk.md)
+- [System Aspect ODP](system-aspect.md)
 
 ⬅️ [Back to the ESO home page](../)
 ⬅️ [Back to the ESO home page](../index.md)
