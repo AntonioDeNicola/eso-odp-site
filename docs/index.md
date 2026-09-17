@@ -6,7 +6,20 @@ Within ESO, Ontology Design Patterns (ODPs) are reusable modeling solutions that
 
 This website provides access to the 18 ODPs defined in the ESO ontological framework.
 
+## Ontology Design Patterns
+
+Explore the catalog of Ontology Design Patterns that constitute the modular structure of ESO.
+
 👉 [Go to the ODP Catalog](./odp/)
-👉 [Go to the ODP Catalog](./odp/index.md)
+
+## SPARQL Query Examples
+
+Explore a collection of SPARQL query examples showing how to retrieve information from ESO. The queries illustrate how to investigate energy demand, policy measures, market participants, renewable power generation, and energy strategies.
 
 👉 [Explore the SPARQL Query Examples](./sparql-queries.md)
+
+## Ontology Versions
+
+The following versions of the Energy System Ontology are available:
+
+- [ESO version 1.05](https://example.org/eso/Energy-System-Ontology_v1.05.owl) — 18th September 2026
