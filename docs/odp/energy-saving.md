@@ -31,3 +31,7 @@ Within ESO, energy saving is not represented as a purely technical optimization 
 
 The pattern also supports integration with adjacent ODPs, particularly those concerning policy acceptance, energy demand, and energy waste, thereby enabling richer representations of demand-side dynamics in energy systems.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
