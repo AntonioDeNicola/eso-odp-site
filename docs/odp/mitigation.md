@@ -25,3 +25,8 @@ This pattern provides a structured semantic representation that can be reused ac
 ## Interpretation
 The pattern links hazards, system vulnerabilities, critical events, and resilience-promoting actions, making it useful for modeling adaptation and risk reduction processes.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
+
