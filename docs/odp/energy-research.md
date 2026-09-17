@@ -31,3 +31,7 @@ The pattern provides a structured way to represent research diversity in the ene
 
 [2] S. T. March, A. R. Hevner, Design and natural science research on information technology, Decision Support Systems, 15 (4), pp. 251 - 266 (1995) 251 - 266. doi:10.1016/0167-9236(94)00041-2. 
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
