@@ -9,3 +9,4 @@ This website provides access to the 18 ODPs defined in the ESO ontological frame
 👉 [Go to the ODP Catalog](./odp/)
 👉 [Go to the ODP Catalog](./odp/index.md)
 
+👉 [Explore the SPARQL Query Examples](./sparql-queries.md)
