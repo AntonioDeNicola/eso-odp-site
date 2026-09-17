@@ -9,4 +9,3 @@ This website provides access to the 18 ODPs defined in the ESO ontological frame
 👉 [Go to the ODP Catalog](./odp/)
 👉 [Go to the ODP Catalog](./odp/index.md)
 
-![ESO Diagram](../assets/images//core-ESO.png)
