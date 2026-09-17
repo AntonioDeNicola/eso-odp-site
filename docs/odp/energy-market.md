@@ -24,3 +24,7 @@ This pattern provides a structured semantic representation that can be reused ac
 ## Interpretation
 This pattern structures market participation around trading activities, roles, and price formation. It supports integrated analysis of the economic and behavioural dimensions of energy systems.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
