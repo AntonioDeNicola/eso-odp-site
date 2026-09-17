@@ -12,50 +12,6 @@ This pattern provides a structured semantic representation that can be reused ac
 
 ---
 
-## Formal OWL Excerpt
-
-```turtle
-@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-eso:critical_event_of_system a owl:Class ;
-    rdfs:label "critical event of system" ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasImpactOn ; owl:someValuesFrom eso:system_aspect ] .
-
-eso:system_aspect a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasVulnerability ; owl:someValuesFrom eso:vulnerability ] .
-
-eso:hazard a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:hasImpact ; owl:someValuesFrom eso:critical_event_of_system ] .
-
-eso:stakeholder a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ; owl:onProperty eso:takesCareOfEvent ; owl:someValuesFrom eso:critical_event_of_system ] .
-```
-
----
-
-## Related Classes and Properties
-
-```turtle
-@prefix eso:  <http://jerico.casaccia.enea.it/genesys/Energy-System-Ontology_v1.01#> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-eso:critical_event_of_system a owl:Class .
-eso:system_aspect a owl:Class .
-eso:hazard a owl:Class .
-eso:vulnerability a owl:Class .
-eso:stakeholder a owl:Class .
-
-eso:hasImpactOn a owl:ObjectProperty .
-eso:hasImpact a owl:ObjectProperty .
-eso:hasVulnerability a owl:ObjectProperty .
-eso:takesCareOfEvent a owl:ObjectProperty .
-```
-
----
-
 ## Key Concepts
 
 - **critical_event_of_system**: It represents an event affecting a system.
@@ -69,10 +25,6 @@ eso:takesCareOfEvent a owl:ObjectProperty .
 ## Interpretation
 The pattern provides a semantic structure for describing events, their impacts on system aspects, and the vulnerabilities that mediate these impacts. It is especially useful for resilience and crisis-oriented analyses.
 
----
-
-## Download
-- [TTL file](../assets/rdf/risk.ttl)
 
 ---
 
