@@ -25,3 +25,7 @@ This pattern provides a structured semantic representation that can be reused ac
 ## Interpretation
 The pattern represents energy policy as more than a standalone regulation. It embeds policy in a wider context of strategy, support measures, and implications, enabling richer policy-oriented knowledge representation.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
