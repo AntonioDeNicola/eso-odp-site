@@ -26,3 +26,7 @@ This pattern provides a structured semantic representation that can be reused ac
 ## Interpretation
 The pattern provides a compact representation of the stages through which energy flows from source to end user, making it suitable for modeling the operational logic of energy systems.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
