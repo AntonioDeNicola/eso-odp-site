@@ -7,5 +7,6 @@ Within ESO, Ontology Design Patterns (ODPs) are reusable modeling solutions that
 This website provides access to the 18 ODPs defined in the ESO ontological framework.
 
 👉 [Go to the ODP Catalog](./odp/)
+👉 [Go to the ODP Catalog](./odp/index.md)
 
 ![ESO Diagram](../assets/images//core-ESO.png)
