@@ -23,4 +23,8 @@ This pattern provides a structured semantic representation that can be reused ac
 ## Interpretation
 The pattern represents energy as something that can appear in multiple forms and be transformed through internal system operations. It is especially useful for modeling conversion chains and technology-dependent transformations.
 
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
 
