@@ -23,3 +23,8 @@ This pattern provides a structured semantic representation that can be reused ac
 
 ## Interpretation
 The pattern supports the representation of strategies as structured plans connected to goals, policy implementation, and planning activities such as monitoring, evaluation, and resource assessment.
+
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
