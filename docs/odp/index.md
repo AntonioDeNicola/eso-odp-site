@@ -1,5 +1,5 @@
 # ESO Ontology Design Patterns
 
-- [Energy Demand ODP](energy-demand/)
-- [Energy Market ODP](energy-market/)
-- [Energy Policy ODP](energy-policy/)
+- [Energy Demand ODP](energy-demand.md)
+- [Energy Market ODP](energy-market.md)
+- [Energy Policy ODP](energy-policy.md)
