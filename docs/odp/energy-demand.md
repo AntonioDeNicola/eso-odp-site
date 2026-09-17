@@ -9,7 +9,7 @@ This pattern provides a structured semantic representation that can be reused ac
 
 ## Conceptual Diagram
 
-![Energy Demand ODP Diagram](../assets/images/energy_demand.png)
+![Energy Demand ODP Diagram](../assets/images/energy-demand.png)
 
 ---
 
