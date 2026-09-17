@@ -26,3 +26,7 @@ This pattern provides a structured semantic representation that can be reused ac
 The pattern models international cooperation as a structured process involving multiple actors, formal arrangements, and shared objectives. It is useful for representing geopolitical and governance dimensions of energy transition.
 
 ---
+
+⬅️ [Back to the ODP Catalog](./)
+
+
