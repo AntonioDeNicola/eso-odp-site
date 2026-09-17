@@ -31,3 +31,8 @@ The pattern provides a semantic structure for describing events, their impacts o
 ## References
 [1] A. De Nicola, M. L. Villani, Actionable semantic patterns in the crisis management lifecycle: The TERMINUS ontology, Smart Cities 8 (5)
 (2025). doi:10.3390/smartcities8050179.
+
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
