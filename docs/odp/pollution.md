@@ -23,3 +23,8 @@ This pattern provides a structured semantic representation that can be reused ac
 
 ## Interpretation
 The pattern frames pollution as an ecological load that affects ecosystems and their components. It supports the integration of environmental impacts into a broader energy-system ontology.
+
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
