@@ -24,3 +24,8 @@ This pattern provides a structured semantic representation that can be reused ac
 
 ## Interpretation
 The pattern formalizes energy security as a multi-dimensional goal rather than a single attribute. It helps represent strategic planning concerns and their links to availability, resilience, and sustainability.
+
+---
+
+⬅️ [Back to the ODP Catalog](./)
+
