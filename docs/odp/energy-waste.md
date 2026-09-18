@@ -61,7 +61,7 @@ The pattern combines three complementary perspectives. First, it represents ener
 
 This structure makes the pattern suitable for competency questions concerning the causes of energy waste, its effects on consumption, cost, and the environment, and the behavioural factors associated with the way end users consume energy.
 
-> **Modeling note:** In ESO version 1.05, the concept shown as **Energy User** in the diagram corresponds to `energy_end_user`. The relation `energy_end_user hasBehaviorDriver behavior_driver` is inherited through the class hierarchy because `energy_end_user` is an `energy_market_participant`, an `energy_market_participant` is a `market_participant`, and a `market_participant` is an `actor`; the formal axioms for `actor` include `hasBehaviorDriver`. The ontology also explicitly states that `energy_waste` is a subclass of both `behavior` and `sustainable_and_environmental_behavior`.
+> **Modeling note:** In ESO version 1.05, the relation `energy_end_user hasBehaviorDriver behavior_driver` is inherited through the class hierarchy because `energy_end_user` is an `energy_market_participant`, an `energy_market_participant` is a `market_participant`, and a `market_participant` is an `actor`; the formal axioms for `actor` include `hasBehaviorDriver`. The ontology also explicitly states that `energy_waste` is a subclass of both `behavior`.
 
 ---
 ⬅️ [Back to the ODP Catalog](./)
