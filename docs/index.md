@@ -22,7 +22,7 @@ Explore a collection of SPARQL query examples showing how to retrieve informatio
 
 The following versions of the Energy System Ontology are available:
 
-- [ESO version 1.04](https://raw.githubusercontent.com/AntonioDeNicola/ontologies/refs/heads/main/Energy-System-Ontology_v1.04.rdf) — 8th August 2026
+- [ESO version 1.05](https://raw.githubusercontent.com/AntonioDeNicola/ontologies/refs/heads/main/Energy-System-Ontology_v1.05.rdf) — 18th September 2026
 
 ## Reproducibility Resources
 
