@@ -1,9 +1,11 @@
 # Energy Market ODP
 
 ## Description
-The Energy Market Ontology Design Pattern represents the interaction of market participants that trade energy commodities. It captures roles, market prices, supply and demand dynamics, and the influence of regulatory and pricing mechanisms.
+The Energy Market Ontology Design Pattern represents the energy market as an institutional and economic arrangement in which market participants trade energy commodities. The market has a structure, operates through market mechanisms, coordinates energy supply and energy demand, and is associated with an energy market price.
 
-This pattern provides a structured semantic representation that can be reused across the ESO catalog and linked to other patterns when modeling more complex energy-system dynamics.
+The pattern captures the reciprocal relationship between energy market prices, supply, and demand, together with the effects of market structure, market power, policy instruments, system costs, risks, and geopolitical factors. It also represents market failures and externalities, including environmental and social costs that may not be fully reflected in market prices.
+
+The pattern further connects market outcomes with energy technologies. Capital costs, operating costs, system-integration costs, LCOE, discount rates, and investment appraisal contribute to technology competitiveness and adoption, which in turn affect the energy market, supply, demand, and stranded-asset risk.
 
 ---
 
