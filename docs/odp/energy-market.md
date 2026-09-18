@@ -83,6 +83,7 @@ The pattern further connects market outcomes with energy technologies. Capital c
 | `energy_market_price` | `influences` | `energy_supply`, `energy_demand` |
 | `energy_market_structure` | `affects` | `energy_market_price`, `market_power` |
 | `energy_market_structure` | `constrains` | `energy_market_participant` |
+| `energy_system` | `hasCost` | `system_cost` |
 | `market_power` | `affects` | `energy_market_price` |
 | `market_mechanism` | `determines` | `energy_market_price` |
 | `market_mechanism` | `enables` | `energy_exchange` |
