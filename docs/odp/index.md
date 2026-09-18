@@ -20,4 +20,3 @@
 - [System Aspect ODP](system-aspect.md)
 
 ⬅️ [Back to the ESO home page](../)
-⬅️ [Back to the ESO home page](../index.md)
