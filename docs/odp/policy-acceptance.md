@@ -65,7 +65,7 @@ The pattern combines three complementary perspectives. First, it represents poli
 
 This structure makes the pattern suitable for competency questions concerning which factors influence an actor's behaviour, whether those factors are internal or external, which policy measures can modify behavioural choices, and how incentives, penalties, and social norms may affect policy acceptance.
 
-> **Modeling note:** In ESO version 1.05, `policy_acceptance` is not declared as an OWL class; it is the interpretative focus of this ODP. The formal ontology explicitly models `actor hasBehavior behavior`, `actor hasBehaviorDriver behavior_driver`, the internal and external driver hierarchies, `policy_measure` as a subclass of `policy-dependent_behavior_driver`, and `policy_measure supports policy`. `Need`, `principle`, and `social_norm` are formally placed in the hierarchy shown in the diagram. The generic classes `concern` and `penalty` are not declared in the current ontology file, although specialized concern concepts exist. `incentive` is formally a subclass of `policy_instrument`; because `policy_instrument` is equivalent to `policy_measure`, it can be inferred to be a policy measure.
+> **Modeling note:** In ESO version 1.05, `policy_acceptance` is not declared as an OWL class; it is the interpretative focus of this ODP. The formal ontology explicitly models `actor hasBehavior behavior`, `actor hasBehaviorDriver behavior_driver`, the internal and external driver hierarchies, `policy_measure` as a subclass of `policy-dependent_behavior_driver`, and `policy_measure supports policy`. `Concern`, `Need`, `principle`, and `social_norm` are formally placed in the hierarchy shown in the diagram. 
 
 ---
 
