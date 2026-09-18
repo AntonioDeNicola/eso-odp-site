@@ -33,7 +33,7 @@ By linking strategic goals, political actors, policy instruments, resource asses
 
 - **`energy_resources_assessment`**: A systematic evaluation of available or potential energy resources according to factors such as availability, accessibility, economic viability, environmental impact, and technical feasibility.
 - **`demand_analysis`**: An analysis of consumer behaviour, preferences, purchasing patterns, and expected demand under different prices and conditions.
-- **`investment_and_funding`**: The financial planning and resource-allocation activities needed to support the actions identified by the strategy.
+- **`investment`**: The financial planning and resource-allocation activities needed to support the actions identified by the strategy.
 - **`monitoring`**: The systematic and ongoing observation and tracking of activities, processes, or outcomes during strategy implementation.
 - **`evaluation`**: The assessment of the quality, effectiveness, or value of the strategy and its implementation results.
 
@@ -50,7 +50,7 @@ By linking strategic goals, political actors, policy instruments, resource asses
 | `stakeholder` | `influences` | `politician` |
 | `energy_resources_assessment` | `isPartOf` | `action_plan` |
 | `demand_analysis` | `isPartOf` | `action_plan` |
-| `investment_and_funding` | `isPartOf` | `action_plan` |
+| `investment` | `isPartOf` | `action_plan` |
 | `monitoring` | `isPartOf` | `action_plan` |
 | `evaluation` | `isPartOf` | `action_plan` |
 
