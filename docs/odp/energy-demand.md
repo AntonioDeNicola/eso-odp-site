@@ -2,9 +2,9 @@
 
 ## Description
 
-The Energy Demand Ontology Design Pattern represents energy demand as a service request and an energy process shaped by behavioural, technological, environmental, policy, and economic factors. It connects demand with consumer behaviour, market prices, weather conditions, energy-efficiency policies, technologies, and the economic mechanisms through which consumers respond to changes in income and relative prices.
+The Energy Demand Ontology Design Pattern represents energy demand as a service request and an energy process shaped by behavioural, technological, environmental, policy, and economic factors. Energy demand depends on consumer behaviour, weather conditions, energy-efficiency policies, and technologies, while also interacting bidirectionally with the energy market price.
 
-The pattern also describes demand response as an operational strategy through which energy providers and grid operators encourage consumers to adjust their energy use in response to price signals or grid conditions. Demand response can modify energy demand and contribute to objectives such as grid balance and peak-demand reduction.
+The pattern also describes demand response as an operational strategy initiated by energy providers and grid operators and enabled by policy instruments and market mechanisms. Consumers participate in demand response, which reacts to price signals and may be triggered by grid conditions. By modifying energy demand, demand response contributes to grid balance and peak-demand reduction.
 
 By connecting consumers, market signals, policy instruments, grid conditions, elasticities, and substitution mechanisms, the pattern supports a structured analysis of how energy demand changes and how it can be managed within an energy system.
 
@@ -22,7 +22,7 @@ By connecting consumers, market signals, policy instruments, grid conditions, el
 
 - **`energy_demand`**: A demand for energy. In ESO, it is modeled both as a `Service_request` and as an `energy_process`.
 - **`demand_response`**: A strategy used by energy providers and grid operators to manage electricity demand during periods of peak consumption or supply constraints. It encourages consumers to adjust their electricity use in response to price signals or grid conditions.
-- **`consumer`**: An actor who uses goods or services and whose behaviour, income, and response to prices affect energy-demand dynamics.
+- **`consumer`**: An actor who uses goods or services, has a behaviour, and participates in demand response. Consumer income and sensitivity to prices contribute to energy-demand dynamics.
 
 ### Demand drivers and market signals
 
@@ -33,6 +33,7 @@ By connecting consumers, market signals, policy instruments, grid conditions, el
 - **`energy_market_price`**: The market value or cost of buying or selling energy resources at a given time, shaped by supply and demand, production costs, policy, and other market conditions.
 - **`price_signal`**: A signal conveyed through prices, tariffs, or market incentives that can induce consumers or other market actors to change their energy use.
 - **`grid_condition`**: An operational state of the electricity grid that may affect reliability, supply–demand balance, congestion, or the need for demand-side adjustment.
+- **`energy_carrier`**: A material or phenomenon used to transport or store energy and between which demand may shift as a result of substitution.
 
 ### Elasticities and economic effects
 
@@ -62,27 +63,37 @@ By connecting consumers, market signals, policy instruments, grid conditions, el
 |---|---|---|
 | `energy_demand` | `dependsOn` | `behavior`, `energy_efficiency_policy`, `technology`, `weather` |
 | `energy_demand` | `hasElasticity` | `income_elasticity`, `price_elasticity` |
-| `energy_demand` | `influences` / `determines` | `energy_market_price` |
+| `energy_demand` | `influences` | `energy_market_price` |
+| `energy_market_price` | `influences` | `energy_demand` |
 | `energy_demand` | `affects` | `grid_condition` |
 | `energy_demand` | `isInterestedIn` | `consumer` |
 | `demand_response` | `modifies` | `energy_demand` |
 | `demand_response` | `respondsTo` | `price_signal` |
 | `demand_response` | `aimsAt` | `grid_balance`, `peak_demand_reduction` |
+| `consumer` | `participatesIn` | `demand_response` |
+| `consumer` | `hasBehavior` | `behavior` |
+| `energy_provider`, `grid_operator` | `initiates` | `demand_response` |
+| `policy_instrument`, `market_mechanism` | `enables` | `demand_response` |
+| `grid_condition` | `triggers` | `demand_response` |
+| `price_signal` | `concerns` | `energy_market_price` |
 | `income_effect` | `influences` | `energy_demand` |
 | `substitution_effect` | `influences` | `energy_demand` |
 | `substitution_effect` | `substitutesFrom` / `substitutesTo` | `energy_carrier`, `technology` |
 | `income_elasticity` | `measuresResponsivenessTo` | `consumer_income` |
+| `price_elasticity` | `measuresResponsivenessTo` | `energy_market_price` |
+| `consumer_income` | `givesRiseTo` | `income_effect` |
+| `relative_price_change` | `triggers` | `substitution_effect` |
+| `relative_price_change` | `influences` | `behavior` |
 | `energy_provider`, `policy-maker`, `researcher` | `isInterestedIn` | `energy_demand` |
 
 ---
 
 ## Interpretation
 
-The pattern combines three complementary perspectives. First, it represents the factors associated with energy demand, including behaviour, weather, technology, efficiency policy, and market conditions. Second, it models economic responsiveness through income elasticity, price elasticity, income effects, and substitution effects. Third, it represents demand response as an intervention that modifies demand in response to market and grid signals and contributes to grid-management objectives.
+The pattern combines three complementary perspectives. First, it represents the factors associated with energy demand, including behaviour, weather, technology, energy-efficiency policy, and market prices. The influence between energy demand and energy market price is bidirectional: prices affect demand, while demand also influences market prices. Second, the pattern models economic responsiveness through income elasticity, price elasticity, income effects, and substitution effects. Third, it represents demand response as an intervention enabled by policy and market mechanisms, initiated by energy-system actors, and activated in response to market and grid signals.
 
-This structure makes the pattern suitable for competency questions concerning the factors that shape demand, the responsiveness of consumers to income and price changes, the actors interested in demand dynamics, and the mechanisms used to manage peak consumption and grid balance.
+This structure makes the pattern suitable for competency questions concerning the factors that shape demand, the mutual relationship between demand and market prices, consumer responsiveness to income and price changes, the actors interested in demand dynamics, and the mechanisms used to manage peak consumption and grid balance.
 
-> **Modeling note:** In ESO version 1.05, the formal OWL axioms also state that `energy_demand dependsOn population`, although `population` is not shown in the current conceptual diagram. The ontology also represents the connection from `energy_demand` to `energy_market_price` through `influences` and `determines`; the table above follows those formal axioms.
 
 ---
 
