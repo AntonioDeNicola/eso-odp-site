@@ -85,8 +85,6 @@ The pattern distinguishes research according to both purpose and output. Natural
 
 The subsystem relations define the scope of each tradition. Natural science research addresses environmental and operational aspects, behavioral research addresses actor behaviour, strategy, and policy, and design science research focuses on operational problems and solutions. Because all five subsystems belong to the Energy Domain of Interest, the pattern can connect disciplinary research activities within an integrated representation of the energy system.
 
-> **Modeling note:** The conceptual diagram uses the display label “Evaluation”. The formal restriction `design_science_research hasActivity` points to the class `evaluate`, which is the identifier used in the table above. ESO also contains a distinct class named `evaluation` that is not the target of this restriction.
-
 ---
 
 ## References
