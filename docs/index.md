@@ -29,3 +29,16 @@ The following versions of the Energy System Ontology are available:
 The keyword-frequency dataset, expert annotation matrices, inter-rater agreement results, and methodological documentation are publicly available on the reproducibility page.
 
 👉 [Reproducibility Resources](./reproducibility/)
+
+## Authors
+
+ESO was developed by Antonio De Nicola, Tatiana Patriarca, Benedetto Fresilli, Gregorio D’Agostino (ENEA), Nunzia Leonardi (Guglielmo Marconi University), Aleksandra Wagner (Jagiellonian University), Clemens Striebing (Fraunhofer IAO), Rocio Diaz-Chavez and Yara Evans (Imperial College London), and Fabrizio Pecoraro and Daniela Luzi (IRPPS-CNR).
+
+## Related Publication
+
+The methodology, conceptual framework, and development process underlying ESO are described in a manuscript, which is currently under review in an international scientific journal.
+
+## Acknowledgements
+
+We gratefully acknowledge the partial support of the gEneSys (Transforming Gendered Interrelations of Power and Inequalities in Transition Pathways to Sustainable Energy Systems) project, which has received funding from the European Union's Horizon Europe - Culture, creativity and inclusive society - under grant agreement no. 101094326.
+
