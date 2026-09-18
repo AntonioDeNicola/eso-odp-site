@@ -71,7 +71,6 @@ The pattern further connects market outcomes with energy technologies. Capital c
 
 | Source concept | Relationship | Target concept |
 |---|---|---|
-| `energy_market` | `consistsOf` | `energy_market_participant` |
 | `energy_market_participant` | `participatesIn` | `energy_market` |
 | `energy_market_participant` | `trades` | `energy_commodity` |
 | `energy_commodity` | `hasPrice` | `energy_market_price` |
