@@ -31,7 +31,6 @@ By linking hazards, critical events, system aspects, vulnerabilities, and stakeh
 ### Governance and responsibility
 
 - **`stakeholder`**: An actor with an interest, responsibility, or decision-making role in relation to the system and the management of a critical event.
-- **`event_management`**: The responsibility represented in the pattern by a stakeholder taking care of a critical event, including coordination, response, and recovery activities.
 
 ---
 
