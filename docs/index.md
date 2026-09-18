@@ -40,5 +40,5 @@ The methodology, conceptual framework, and development process underlying ESO ar
 
 ## Acknowledgements
 
-We gratefully acknowledge the partial support of the [gEneSys](https://genesys-project.eu) (Transforming Gendered Interrelations of Power and Inequalities in Transition Pathways to Sustainable Energy Systems) project, which has received funding from the European Union's Horizon Europe - Culture, creativity and inclusive society - under grant agreement no. 101094326.
+We gratefully acknowledge the partial support of the [gEneSys](https://genesys-project.eu) (Transforming Gendered Interrelations of Power and Inequalities in Transition Pathways to Sustainable Energy Systems) project, which received funding from the European Union's Horizon Europe - Culture, creativity and inclusive society - under grant agreement no. 101094326.
 
