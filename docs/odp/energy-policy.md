@@ -36,8 +36,8 @@ By linking objectives, context, measures, strategies, scenarios, implications, a
 ### Policy assessment
 
 - **`policy_scenario`**: A hypothetical representation of how a policy or group of policies may unfold and affect a situation.
-- **`backcasted_scenario`**: A policy scenario that begins with a desired future and works backward to identify the actions required to reach it.
-- **`forecasted_scenario`**: A policy scenario that projects possible outcomes from current data, conditions, and trends.
+- **`backcasting_scenario`**: A policy scenario that begins with a desired future and works backward to identify the actions required to reach it.
+- **`forecasting_scenario`**: A policy scenario that projects possible outcomes from current data, conditions, and trends.
 - **`business-as-usual_scenario`**: A policy scenario representing the continuation of established conditions and practices without major policy changes.
 - **`policy_implication`**: A potential consequence, recommendation, or conclusion derived from policy analysis or evaluation.
 - **`Threat`**: A possible adverse condition or consequence forming part of a policy implication.
@@ -68,8 +68,8 @@ By linking objectives, context, measures, strategies, scenarios, implications, a
 | `incentive` | `isA` | `policy_instrument` |
 | `policy_implication` | `isDerivedFrom` | `policy_scenario` |
 | `policy_implication` | `consistsOf` | `Threat`, `Opportunity` |
-| `backcasted_scenario` | `isA` | `policy_scenario` |
-| `forecasted_scenario` | `isA` | `policy_scenario` |
+| `backcasting_scenario` | `isA` | `policy_scenario` |
+| `forecasting_scenario` | `isA` | `policy_scenario` |
 | `business-as-usual_scenario` | `isA` | `policy_scenario` |
 
 ---
