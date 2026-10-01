@@ -37,7 +37,9 @@ ESO was developed by Antonio De Nicola, Tatiana Patriarca, Benedetto Fresilli, G
 
 ## Related Publication
 
-The methodology, conceptual framework, and development process underlying ESO are described in a manuscript, which is currently under review in an international scientific journal.
+The methodology, conceptual framework, and development process underlying ESO are presented in the following article:
+
+Antonio De Nicola, Tatiana Patriarca, Benedetto Fresilli, Nunzia Leonardi, Aleksandra Wagner, Clemens Striebing, Rocio Diaz-Chavez, Yara Evans, Fabrizio Pecoraro, Daniela Luzi, and Gregorio D’Agostino, “The Energy System Ontology: A Conceptual Framework for Energy Transition Research,” Renewable and Sustainable Energy Reviews, vol. 244, article 117538, 2027. https://doi.org/10.1016/j.rser.2026.117538
 
 ## Acknowledgements
 
